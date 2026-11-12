@@ -18,7 +18,8 @@
 fastapi-learn/
 ├── main.py        # FastAPI 应用入口
 ├── .gitignore     # Git 忽略规则
-└── README.md      # 项目说明
+├── README.md      # 项目说明
+└── 推送步骤.md     # GitHub 远程仓库推送步骤
 ```
 
 ## 本地运行
@@ -48,6 +49,8 @@ uvicorn main:app --reload
 
 ## Git 操作记录
 
+托管平台：GitHub（开源 Public / 闭源 Private 均可）。
+
 ```bash
 git init                          # 初始化本地仓库
 git add .                         # 暂存全部文件
@@ -55,6 +58,8 @@ git commit -m "init"              # 提交到本地仓库
 git remote add origin <仓库地址>   # 关联远程仓库
 git push -u origin main           # 推送到远程
 ```
+
+详细图文步骤见《推送步骤.md》。
 
 ## 作业登记表对应项
 

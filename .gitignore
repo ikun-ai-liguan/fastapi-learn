@@ -1,0 +1,19 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+venv/
+.venv/
+mycollenv/
+env/
+
+# 编辑器 / 工具目录
+.codeartsoer/
+.vscode/
+.idea/
+
+# 日志与临时文件
+*.log
